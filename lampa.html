@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="of_of.jpg" alt="" 
+    onclick="ndryshoImazhin()" height="200" width="200" id="imazh">
+    <script>
+        function ndryshoImazhin(){
+            var imazhi=document.getElementById('imazh');
+            if(imazhi.src.match("on")){
+                imazhi.src="of_of.jpg";
+            }else{
+                imazhi.src="on_on.jpg";
+            }
+            
+        }
+    </script>
+</body>
+</html>
